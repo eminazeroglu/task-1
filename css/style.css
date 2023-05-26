@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Grenze+Gotisch&family=Lemon&family=Lexend+Zetta&family=Mogra&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url(./reset.css);
+
+body {
+    background-color: rgb(212, 225, 236);
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 498px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 60px 56px 60px 54px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 618px;
+    height: 731px;
+    top: -60px;
+    right: -60px;
+    left: -60px;
+    z-index: -1;
+
+    background: linear-gradient(119.36deg, #E9E8FF 0%, #E7F3FF 100%);
+    border-radius: 49px;
+}
+
+
+.card1 .p549 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    color: #292E5A;
+    margin-bottom: 10px;
+}
+
+.card1 .pay-now {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #292E5A;
+
+}
+
+.card1 .buy-online {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+    margin-top: 42px;
+
+    width: 100%;
+    /* height: 71px; */
+    background: linear-gradient(96.58deg, #5FF489 0%, #79F4F4 100%);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #292E5A;
+    border: none;
+}
+
+.card1 .online-storage {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #292E5A;
+}
+
+.img-p1 figure {
+    display: flex;
+    flex-direction: row;
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+
+.img-p2 figure {
+    display: flex;
+    flex-direction: row;
+}
+
+figure p {
+    color: #292E5A;
+}
+
+.get-item-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.get-item {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #292E5A;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+
+.zipCodeCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    /* gap: 19px; */
+    width: 100%;
+    background: #F3F5FF;
+    border-radius: 8px;
+}
+
+
+.zip-code {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 8px; */
+    width: 222px;
+    border: 1px solid #B3C7E3;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.check {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* gap: 8px; */
+    width: 126px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.check-p {
+    align-self: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.pick-up {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+
+    width: 385px;
+    height: 71px;
+
+    background: linear-gradient(96.58deg, #9CC4FF 0%, #B4A8FF 100%);
+    border-radius: 8px;
+    border: none;
+}
